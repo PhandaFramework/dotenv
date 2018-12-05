@@ -1,5 +1,5 @@
 {
-    "name": "phanda/dotenv",
+    "name": "phanda-framework/dotenv",
     "description": "A wrapper around vlucas/dotenv that provides additional functionality. Used in the Phanda framework to allow loading of multiple dotenv files.",
     "type": "library",
     "require": {
