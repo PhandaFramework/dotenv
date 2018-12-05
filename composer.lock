@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5b353b5826a21cdb1a00521870f5ba55",
+    "content-hash": "742b65a8f9722959892b1eab66a8273d",
     "packages": [
         {
             "name": "vlucas/phpdotenv",
