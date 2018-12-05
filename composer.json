@@ -12,5 +12,10 @@
             "email": "storm@phandaframework.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Phanda\\": "src/Phanda/"
+        }
+    },
     "minimum-stability": "dev"
 }
