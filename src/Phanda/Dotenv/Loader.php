@@ -33,6 +33,7 @@ class Loader extends BaseLoader
         // Don't overwrite existing environment variables if we're immutable
         // Ruby's dotenv does this with `ENV[key] ||= value`.
         if ($this->immutable && $this->getEnvironmentVariable($name) !== null) {
+            $this->envMapping[$name] = $this->getEnvironmentVariable($name);
             return;
         }
 
